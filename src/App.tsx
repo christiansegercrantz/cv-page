@@ -82,10 +82,18 @@ export default function App() {
     fetchCSV();
   }, []);
 
+  const searchParams = new URLSearchParams(window.location.search);
+  const showHidden = searchParams.has('show_all') || searchParams.get('mode') === 'full';
+
   const { events, laneGroups, maxLanes, timelineWidth, years } = useMemo(() => {
     if (!rawEvents.length) return { events: [], laneGroups: [], maxLanes: 0, timelineWidth: 1000, years: [] };
 
-    const baseEvents = rawEvents.map((item, idx) => {
+    const baseEvents = rawEvents
+      .filter(item => {
+        const org = item.organisation?.toLowerCase() || '';
+        return showHidden || (org !== 'stf' && org !== 'hankkijat');
+      })
+      .map((item, idx) => {
       let st = parseISO(item.start_date);
       if (!isValid(st)) st = new Date();
       let ed = item.end_date ? parseISO(item.end_date) : st;
@@ -308,7 +316,9 @@ export default function App() {
                  <div className="pt-6 border-t border-slate-100">
                    <label className="block text-sm font-semibold text-slate-700 mb-3">Organization Colors</label>
                    <div className="space-y-3 max-h-64 overflow-y-auto pr-2 custom-scrollbar">
-                     {Object.entries(colors).map(([org, color]) => (
+                     {Object.entries(colors)
+                       .filter(([org]) => showHidden || (org !== 'stf' && org !== 'hankkijat'))
+                       .map(([org, color]) => (
                         <div key={org} className="flex justify-between items-center bg-slate-50 p-2 rounded border border-slate-100">
                            <span className="text-sm font-medium text-slate-700 truncate pr-2 capitalize" title={org}>{org}</span>
                            <div className="flex items-center gap-3">
