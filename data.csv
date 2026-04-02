@@ -7,7 +7,8 @@ Historiklanseringsarbetsgruppens Ordförande,tf,functionary,2022-01-01,2022-12-3
 "HTK",tf,group,2022-01-01,2023-12-31, "Fungerade ordförande"
 KEDJA,tf,group,2020-09-01,2022-05-31,
 PhISO,tf,functionary,2021-01-01,2021-12-31,
-DOMPPA,tf,group,2021-05-31,,
+DOMPPA,tf,group,2021-05-31,2021-12-31,
+DOMPPA,tf,group,2022-01-01,2022-12-31,
 JuBBE,tf,group,2020-09-01,2022-12-31,
 HTK,tf,group,2020-01-01,2021-12-31,
 FRACK,tf,group,2019-02-14,2019-03-21,
@@ -28,9 +29,9 @@ Matematikgruppen,tf,group,2015-09-01,2015-12-31,
 Konk,tf,group,2015-01-01,2015-12-31,
 "Hako, Ekonomiansvarig",tf,group,2014-10-09,2015-04-30,
 Matematikgruppen,tf,group,2014-09-01,2014-12-31,
-Teekkarientunnustyöryhmä,teekkarius,group,2024-01-01,2024-12-31,
+Teekkarientunnustyöryhmä,teekkarius,group,2024-01-01,2025-12-31,
 Museotoimikunta,ayy,group,2023-01-01,2023-12-31,
-"AYY Edustajisto",ayy,functionary,2022-01-01,2023-12-31, "Polytekarna, Varajäsen"
+"AYY Edustajisto",ayy,functionary,2022-01-01,2023-12-31, "Polytekarna Varajäsen"
 HuomTMK PJ,ayy,functionary,2022-01-01,2022-12-31,
 Museotoimikunta,ayy,group,2022-01-01,2022-12-31,
 LESG ICT Halloped,ayy,functionary,2021-01-01,2021-12-31,
@@ -38,21 +39,22 @@ Museotoimikunta,ayy,group,2021-01-01,2021-12-31,
 HuomTMK PJ,ayy,functionary,2021-01-01,2021-12-31,
 HuomTMK PJ,ayy,functionary,2020-01-01,2020-12-31, "Osa hallitusnakkia"
 "AYYH, Yhteisövastaava",ayy,functionary,2020-01-01,2020-12-31, 
-"AYY Edustajisto",ayy,functionary,2020-01-01,2021-12-31,"Polytekarna, Varajäsen"
+"AYY Edustajisto",ayy,functionary,2020-01-01,2021-12-31,"Polytekarna Varajäsen"
 "Aava, Projektivastaava",ayy,functionary,2019-01-01,2019-12-31,
 YVA,ayy,group,2019-01-01,2019-12-31,
 "Linnanisäntä, Otakaari 20",ayy,functionary,2018-09-17,2019-07-31,
 "Polyteekkarimuseo, muuttopäällikkö",ayy,functionary,2018-06-01,2019-08-01,
 YVa,ayy,group,2018-01-01,2018-12-31,
 TPTMK,ayy,group,2018-01-01,2018-12-31,
-"AYY Edustajisto",ayy,functionary,2018-01-01,2019-12-31, "Polytekarna, Varsinainen jäsen"
+"AYY Edustajisto",ayy,functionary,2018-01-01,2019-12-31, "Polytekarna Varsinainen jäsen"
 Museojaosto,ayy,group,2018-01-01,2020-12-31,
 "Polyteekkarimuseo, Opas",ayy,functionary,2017-11-30,2023-12-31,
-"STF Hallitus, Patron (PJ)",stf,functionary,2024-01-01,2024-12-31,
+"STF Styrelse",stf,functionary,2024-01-01,2024-12-31,Patron
 "Hankkijain Kalastaja (huom.)",hankkijat,functionary,2023-07-01,2025-12-31,
-"STF Hallitus, Utrikesminister",stf,functionary,2023-01-01,2023-12-31,
+"STF Styrelse",stf,functionary,2023-01-01,2023-12-31,Utrikesminister
 "Hankkijain Tasaussijoittaja (talous)",hankkijat,functionary,2020-01-01,2020-12-31,
 "Polytekarna, kassör",polytekarna,functionary,2018-01-01,2019-12-31,
+AYY:n kunniamerkki,ayy,decoration,2025-05-17,,
 TF:s Hedersmärke i Silver,tf,decoration,2024-02-14,,
 AYY:n Ansiomerkki,ayy,decoration,2023-05-13,,
 Arwoisa,teekkarius,decoration,2022-11-15,,
